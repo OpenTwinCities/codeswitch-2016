@@ -1,0 +1,231 @@
+/*
+ Theme Name:   The Keynote Child
+ Theme URI:    http://codeswith.mn
+ Description:  Keynote Child theme for Code Switch 
+ Author:       Bill Bushey 
+ Author URI:   http://wbushey.com
+ Template:     thekeynote
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         white, light, yellow, two-columns, fluid-layout, custom-background, custom-colors, featured-images, theme-options
+ Text Domain:  gdlr_translate
+*/
+
+/*** Hero sections text ***/
+
+/* Top home image */
+
+.home #content-section-1 .ms-slide-layers{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero-slider .ms-anim-layers .msp-cn-1-9, 
+#hero-slider .ms-anim-layers .msp-cn-1-10{
+  display: block !important;
+}
+
+/* Other Hero sesions */
+
+.gdlr-parallax-wrapper .gdlr-item-title-wrapper{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2em 0;
+}
+
+.gdlr-parallax-wrapper .gdlr-item-title-wrapper h3{
+  color: #EEE !important;
+}
+
+.gdlr-parallax-wrapper .gdlr-item-title-caption{
+  color: #CCC !important;
+}
+
+/* Footer Sponsors */
+
+.footer-wrapper .sponsors .logos li{
+  max-width: 90%;
+}
+
+.footer-wrapper .sponsors .logos li img{
+  max-height: 75px;
+  max-width: 100%;
+}
+
+/* Sponsors Page */
+
+.sponsors{
+  margin-bottom: 2rem;
+}
+
+.sponsors h2{
+  margin-left: 2rem;
+}
+
+.sponsors .logos{
+  text-align: center;
+  list-style-type: none;
+}
+
+.sponsors .logos li{
+  display: inline-block;
+  padding: 1em;
+  vertical-align: middle;
+  
+}
+
+.sponsors .logos li img{
+  vertical-align: middle;
+}
+
+.sponsors.gigabyte .logos li{
+  max-width: 50%;
+}
+
+.sponsors.gigabyte .logos li img{
+  max-height: 200px;
+}
+
+.sponsors.megabyte .logos li{
+  max-width: 33%;
+}
+
+.sponsors.megabyte .logos li img{
+    max-height: 150px;
+}
+
+.sponsors.kilobyte .logos li,
+.sponsors.community .logos li{
+  max-width: 20%;
+}
+
+.sponsors.kilobyte .logos li img,
+.sponsors.community .logos li img{
+    max-height: 90px;
+}
+
+@media only screen and (max-width: 959px){
+  body .container{ max-width: 100% !important; }
+  
+  #hero-slider a {
+    font-size: 2em !important;
+    width: auto !important;
+    padding: 1em 1.5em !important;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  body .container{ max-width: 100% !important; }
+  
+  #hero-slider .ms-anim-layers {
+    padding-top: 1rem;
+  }
+  
+  #hero-slider .ms-anim-layers div{
+    display: block !important;
+    position: static !important;
+    text-align: center !important;
+    margin-top: 0.6rem !important;
+  }
+  
+  #hero-slider .ms-anim-layers .ms-btn-container{
+    padding-top: 1em !important;
+    width: 100% !important;
+  }
+  
+  #hero-slider .ms-anim-layers .msp-cn-1-7,
+  #hero-slider .ms-anim-layers .msp-cn-1-8,
+  #hero-slider .ms-anim-layers .msp-cn-1-6 {
+    font-size: 1.2em !important;
+    display: inline-block !importantant;
+    width: 100% !important;
+    padding-bottom: .4em !important;
+  }
+  
+  #hero-slider .ms-anim-layers .msp-cn-1-9, 
+  #hero-slider .ms-anim-layers .msp-cn-1-10{
+    display: none !important;
+  }
+  
+  .gdlr-session-counter-item .session-counter-block{
+    padding: 0;
+    min-width: 60px;
+  }
+  
+  .sponsors.gigabyte .logos li{
+    max-width: 75%;
+  }
+  
+  .sponsors.megabyte .logos li{
+    max-width: 60%;
+  }
+  
+  .sponsors.kilobyte .logos li,
+  .sponsors.community .logos li{
+    max-width: 40%;
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+  #hero-slider,
+  .ms-view.ms-wave-view{
+    height: 300px !important;
+  }
+  
+  .ms-slide-bgcont img{
+    height: 350px !important;
+    width: auto !important;
+  }
+  
+  #hero-slider .ms-anim-layers .msp-cn-1-7,
+  #hero-slider .ms-anim-layers .msp-cn-1-8,
+  #hero-slider .ms-anim-layers .msp-cn-1-6 {
+    font-size: 1.0em !important;
+    padding-bottom: .4em !important;
+  }
+  
+  #hero-slider a {
+    font-size: 1.2em !important;
+    width: auto !important;
+    padding: 1em 1.5em !important;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  
+  .gdlr-color-wrapper, .gdlr-parallax-wrapper{
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+  }
+  
+  .gdlr-session-counter-item {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+  }
+  
+  .gdlr-session-counter-item .session-counter-block{
+    padding: 0;
+    min-width: 40px;
+  }
+  
+  .gdlr-session-counter-item .gdlr-time {
+    font-size: 40px;
+  }
+  
+  .sponsors.gigabyte .logos li{
+    max-width: 85%;
+  }
+  
+  .sponsors.megabyte .logos li{
+    max-width: 70%;
+  }
+  
+  .sponsors.kilobyte .logos li,
+  .sponsors.community .logos li{
+    max-width: 50%;
+  }
+  
+  .copyright-left {
+    float: none;
+  }
+}
